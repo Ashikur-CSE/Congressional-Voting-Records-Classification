@@ -1,0 +1,407 @@
+{
+  "bytes": 339526,
+  "datahub": {
+    "created": "2018-08-24T04:11:19.699580",
+    "findability": "published",
+    "flowid": "machine-learning/vote/2",
+    "modified": "2018-09-06T13:47:24.760999",
+    "owner": "machine-learning",
+    "ownerid": "machine-learning"
+  },
+  "description": "The resources for this dataset can be found at https://www.openml.org/d/56\n\nAuthor:   \nSource: Unkno",
+  "hash": "f5dddd054ae52160e457c5e581876d54",
+  "id": "machine-learning/vote",
+  "licenses": [
+    {
+      "name": "ODC-PDDL",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License"
+    }
+  ],
+  "name": "vote",
+  "resources": [
+    {
+      "bytes": 40261,
+      "datahub": {
+        "type": "original"
+      },
+      "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/3c16059c5b92f6551f720f97d0eccc09.arff",
+      "encoding": "ISO-8859-1",
+      "format": "arff",
+      "name": "vote_arff",
+      "path": "archive/vote_arff.arff",
+      "pathType": "local",
+      "profile": "data-resource"
+    },
+    {
+      "bytes": 32144,
+      "datahub": {
+        "type": "original"
+      },
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "'"
+      },
+      "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/70debac8e35eba0c0f44bbecf83326b3.csv",
+      "encoding": "ISO-8859-1",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "name": "vote_original",
+      "path": "archive/vote.csv",
+      "pathType": "local",
+      "profile": "data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "handicapped-infants",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "water-project-cost-sharing",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "adoption-of-the-budget-resolution",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "physician-fee-freeze",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "el-salvador-aid",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "religious-groups-in-schools",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "anti-satellite-test-ban",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "aid-to-nicaraguan-contras",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "mx-missile",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "immigration",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "synfuels-corporation-cutback",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "education-spending",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "superfund-right-to-sue",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "crime",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "duty-free-exports",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "export-administration-act-south-africa",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Class",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 21829,
+      "datahub": {
+        "type": "derived/report"
+      },
+      "description": "Validation report for tabular data",
+      "dpp:streamedFrom": "/tmp/tmp19df60ci/machine-learning/vote/validation_report/data/6e34f682ff2d63007cdc36235a8bb189/validation_report.json",
+      "format": "json",
+      "hash": "6e34f682ff2d63007cdc36235a8bb189",
+      "name": "validation_report",
+      "path": "data/validation_report.json",
+      "profile": "data-resource"
+    },
+    {
+      "bytes": 18574,
+      "datahub": {
+        "derivedFrom": [
+          "vote"
+        ],
+        "type": "derived/csv"
+      },
+      "delimiter": ",",
+      "dialect": {
+        "delimiter": ",",
+        "doubleQuote": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "/tmp/tmp19df60ci/machine-learning/vote/vote_csv/data/65f1736301dee4a2ad032abfe2a61acb/vote_csv.csv",
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "65f1736301dee4a2ad032abfe2a61acb",
+      "mediatype": "text/csv",
+      "name": "vote_csv",
+      "path": "data/vote_csv.csv",
+      "pathType": "local",
+      "profile": "data-resource",
+      "quotechar": "'",
+      "rowcount": 435,
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "handicapped-infants",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "water-project-cost-sharing",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "adoption-of-the-budget-resolution",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "physician-fee-freeze",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "el-salvador-aid",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "religious-groups-in-schools",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "anti-satellite-test-ban",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "aid-to-nicaraguan-contras",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "mx-missile",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "immigration",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "synfuels-corporation-cutback",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "education-spending",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "superfund-right-to-sue",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "crime",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "duty-free-exports",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "export-administration-act-south-africa",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Class",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 219534,
+      "datahub": {
+        "derivedFrom": [
+          "vote"
+        ],
+        "type": "derived/json"
+      },
+      "delimiter": ",",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "'"
+      },
+      "dpp:streamedFrom": "/tmp/tmp19df60ci/machine-learning/vote/vote_json/data/fff9a77927d9e810f8ef63c7299292e3/vote_json.json",
+      "encoding": "utf-8",
+      "format": "json",
+      "hash": "fff9a77927d9e810f8ef63c7299292e3",
+      "mediatype": "text/csv",
+      "name": "vote_json",
+      "path": "data/vote_json.json",
+      "pathType": "local",
+      "profile": "data-resource",
+      "quotechar": "'",
+      "rowcount": 435,
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "handicapped-infants",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "water-project-cost-sharing",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "adoption-of-the-budget-resolution",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "physician-fee-freeze",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "el-salvador-aid",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "religious-groups-in-schools",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "anti-satellite-test-ban",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "aid-to-nicaraguan-contras",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "mx-missile",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "immigration",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "synfuels-corporation-cutback",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "education-spending",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "superfund-right-to-sue",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "crime",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "duty-free-exports",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "export-administration-act-south-africa",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Class",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 7184,
+      "dpp:streamedFrom": "/tmp/tmpydnv4gla/README.md",
+      "format": "md",
+      "name": "readme",
+      "path": "README.md"
+    }
+  ],
+  "title": "Vote"
+}
